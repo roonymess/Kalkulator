@@ -6,7 +6,8 @@ public class Kalk {
     static int proverka = 0;
     public static void main(String[] args) {
 
-        String str = scanner.nextLine();
+        String self = scanner.nextLine();
+        String str = self.replaceAll("\"" , "");
         String simbol[] = str.split(" ");
 
         int num1 = getInt(simbol[0]);
