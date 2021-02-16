@@ -136,7 +136,7 @@ public class Kalk {
                     romeOut += "LXX";
                     break;
                 case 8:
-                    romeOut += "LXX";
+                    romeOut += "LXXX";
                     break;
                 case 9:
                     romeOut += "XC";
